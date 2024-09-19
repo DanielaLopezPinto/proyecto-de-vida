@@ -5,7 +5,6 @@
   font-style: normal;
 }
 
-
 /* Reset y box-sizing */
 * {
     margin: 0;
@@ -27,7 +26,7 @@ body {
 
 /* Header */
 header {
-    background-color: #fa64c3cb; 
+    background-color: #fa64c3cb; /* Rosa suave */
     color: white;
     padding: 1rem;
     text-align: center;
@@ -42,14 +41,14 @@ main {
     padding: 2rem;
     max-width: 800px;
     margin: auto;
-    flex: 1; 
+    flex: 1; /* Para que el main ocupe el espacio disponible */
 }
 
 /* Sección de preguntas */
 .question-section {
     margin-bottom: 2rem;
     padding: 1rem;
-    background-color: #fff; 
+    background-color: #fff; /* Blanco para contraste */
     border: 1px solid #ddd;
     border-radius: 8px;
 }
@@ -69,12 +68,11 @@ p {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #fa64c3cb; 
+    background-color: #fa64c3cb; /* Rosa suave */
     color: white;
-    margin-top: auto; 
+    margin-top: auto; /* Empuja el footer hacia el fondo */
 }
 
 footer p {
     font-size: 0.9rem;
 }
-
