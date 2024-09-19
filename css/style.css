@@ -15,7 +15,7 @@
 
 /* Estilos generales */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Sofadi One", system-ui;
     background: url('../images/mariposas.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
