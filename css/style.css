@@ -1,23 +1,31 @@
+/* Reset y box-sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background: url('../images/mariposas.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
     line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+/* Header */
 header {
-    background-color: #4CAF50;
+    background-color: #fa64c3cb; 
     color: white;
     padding: 1rem;
     text-align: center;
 }
 
+/* Títulos */
 h1 {
     font-size: 2.5rem;
 }
@@ -26,35 +34,39 @@ main {
     padding: 2rem;
     max-width: 800px;
     margin: auto;
+    flex: 1; 
 }
 
+/* Sección de preguntas */
 .question-section {
     margin-bottom: 2rem;
     padding: 1rem;
-    background-color: #ffffff;
+    background-color: #fff; 
     border: 1px solid #ddd;
     border-radius: 8px;
 }
 
 h2 {
     font-size: 1.8rem;
-    color: #4CAF50;
+    color: #f75ad5; /* Morado */
     margin-bottom: 1rem;
 }
 
 p {
     font-size: 1.1rem;
-    color: #555;
+    color: #000000;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #333;
+    background-color: #fa64c3cb; 
     color: white;
-    margin-top: 2rem;
+    margin-top: auto; 
 }
 
 footer p {
     font-size: 0.9rem;
 }
+
