@@ -64,6 +64,27 @@ p {
     color: #000000;
 }
 
+/* Sección de Mapa de Sueños */
+.dream-map-section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.dream-map-section h2 {
+    color: #a142c0;
+}
+
+.main-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
 /* Footer */
 footer {
     text-align: center;
