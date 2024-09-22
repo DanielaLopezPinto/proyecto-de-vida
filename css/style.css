@@ -5,6 +5,15 @@
   font-style: normal;
 }
 
+
+.portada h1 {
+    font-size: 5.5rem; /* Ajusta el tamaño de la fuente según prefieras */
+}
+
+.portada p {
+    font-size: 3.0rem; /* Aumenta el tamaño de los párrafos */
+}
+
 /* Reset y box-sizing */
 * {
     margin: 0;
@@ -55,7 +64,7 @@ main {
 
 h2 {
     font-size: 1.8rem;
-    color: #f75ad5; /* Morado */
+    color: #f75ad5; 
     margin-bottom: 1rem;
 }
 
@@ -75,7 +84,7 @@ p {
 }
 
 .dream-map-section h2 {
-    color: #a142c0;
+    color: #f75ad5;;
 }
 
 .main-image {
@@ -89,9 +98,9 @@ p {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #fa64c3cb; /* Rosa suave */
+    background-color: #fa64c3ab; 
     color: white;
-    margin-top: auto; /* Empuja el footer hacia el fondo */
+    margin-top: auto; 
 }
 
 footer p {
