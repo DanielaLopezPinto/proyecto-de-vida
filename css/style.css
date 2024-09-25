@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
 .sofadi-one-regular {
   font-family: "Sofadi One", system-ui;
   font-weight: 400;
   font-style: normal;
 }
-
 
 .portada h1 {
     font-size: 5.5rem; /* Ajusta el tamaño de la fuente según prefieras */
@@ -35,7 +35,7 @@ body {
 
 /* Header */
 header {
-    background-color: #fa64c3cb; /* Rosa suave */
+    background-color: #fa64c3cb; 
     color: white;
     padding: 1rem;
     text-align: center;
@@ -50,14 +50,14 @@ main {
     padding: 2rem;
     max-width: 800px;
     margin: auto;
-    flex: 1; /* Para que el main ocupe el espacio disponible */
+    flex: 1; 
 }
 
 /* Sección de preguntas */
 .question-section {
     margin-bottom: 2rem;
     padding: 1rem;
-    background-color: #fff; /* Blanco para contraste */
+    background-color: #fff; 
     border: 1px solid #ddd;
     border-radius: 8px;
 }
@@ -84,7 +84,7 @@ p {
 }
 
 .dream-map-section h2 {
-    color: #f75ad5;;
+    color: #f75ad5;
 }
 
 .main-image {
@@ -105,4 +105,32 @@ footer {
 
 footer p {
     font-size: 0.9rem;
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 576px) {
+    .portada h1 {
+        font-size: 3rem; 
+    }
+
+    .portada p {
+        font-size: 1.5rem; 
+    }
+
+    main {
+        padding: 1rem; 
+    }
+
+    h2 {
+        font-size: 1.5rem; 
+    }
+
+    p {
+        font-size: 1rem; 
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+    
 }
